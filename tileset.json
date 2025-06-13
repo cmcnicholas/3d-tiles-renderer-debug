@@ -1,0 +1,61 @@
+{
+  "asset": {
+    "version": "1.0",
+    "extras": {
+      "ion": {
+        "georeferenced": false,
+        "movable": true
+      }
+    }
+  },
+  "geometricError": 100000,
+  "root": {
+    "boundingVolume": {
+      "box": [4966.5, 7021.5, 0, 4966.5, 0, 0, 0, 7021.5, 0, 0, 0, 0]
+    },
+    "refine": "REPLACE",
+    "geometricError": 99999,
+    "children": [
+      {
+        "boundingVolume": {
+          "box": [0, 0, 0, 2483, 0, 0, 0, 3510.5, 0, 0, 0, 0]
+        },
+        "geometricError": 0,
+        "content": {
+          "uri": "tile-1-1-1.glb"
+        },
+        "transform": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7449, 10531.5, 0, 1]
+      },
+      {
+        "boundingVolume": {
+          "box": [0, 0, 0, 2483, 0, 0, 0, 3510.5, 0, 0, 0, 0]
+        },
+        "geometricError": 0,
+        "content": {
+          "uri": "tile-1-0-1.glb"
+        },
+        "transform": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2483, 10531.5, 0, 1]
+      },
+      {
+        "boundingVolume": {
+          "box": [0, 0, 0, 2483, 0, 0, 0, 3510.5, 0, 0, 0, 0]
+        },
+        "geometricError": 0,
+        "content": {
+          "uri": "tile-0-1-1.glb"
+        },
+        "transform": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 7449, 3510.5, 0, 1]
+      },
+      {
+        "boundingVolume": {
+          "box": [0, 0, 0, 2483, 0, 0, 0, 3510.5, 0, 0, 0, 0]
+        },
+        "geometricError": 0,
+        "content": {
+          "uri": "tile-0-0-1.glb"
+        },
+        "transform": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2483, 3510.5, 0, 1]
+      }
+    ]
+  }
+}
